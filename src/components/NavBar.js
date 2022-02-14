@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import {useNavigate} from 'react-router-dom';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Prod', 'Cyrus Dev', 'CircleCi', ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const ResponsiveAppBar = () => {
