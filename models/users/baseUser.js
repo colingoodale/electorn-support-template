@@ -7,6 +7,10 @@ const baseUserOptions = {
 };
 
 const baseUserSchema = new Schema({
+    _id:{
+        type:String,
+        required:"An _id must be provided when creating a user with Firebase Auth"
+    },
     email: {
         type:String
     },
