@@ -5,6 +5,7 @@ const enforce = require('express-sslify');
 const helmet = require("helmet");
 const mongoose = require('mongoose');
 const MongoDbStore = require("connect-mongodb-session")(session);
+const routes = require('./routes');
 
 
 dotenv.config();

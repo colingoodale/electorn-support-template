@@ -34,10 +34,8 @@ const baseUserSchema = new Schema({
     active:{
         type:Boolean,
         default:true
-    }
-    deviceTokens: [
-        {type: String}
-    ]
+    },
+    deviceTokens: [String]
 }, baseUserOptions)
 
 const BaseUser = mongoose.model("BaseUser", baseUserSchema);
